@@ -1,3 +1,12 @@
+install npm install bootstrap
+npm install jquery
+npm install datatables.net
+npm install datatables.net-bs4
+
+
+
+
+
 # travelers
 
 ## Summary
