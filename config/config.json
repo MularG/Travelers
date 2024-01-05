@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "travelers-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/travelers/TravelersWebPart.js",
+          "manifest": "./src/webparts/travelers/TravelersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TravelersWebPartStrings": "lib/webparts/travelers/loc/{locale}.js"
+  }
+}
